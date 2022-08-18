@@ -34,28 +34,29 @@
    </nav>
 </header>
     <main>
-    <div>
-    Savalan Freelance Services<br>
-    Lothar-Streit Strasse 5 <br>
-   08056 Zwickau<br>
-    Germany<br>
-    <br>
-    Tel:<a href="tel:+49 1573 727 71 77">+49 1573 727 71 77</a> <br>
-    E-mail:<a href="mailto:savalan.suleymanli@gmailcom">savalan.suleymanli@gmailcom</a>
-</div>
-<form action="" method="post" id="contact-form">
-    <label class="standard-label" for="contact-email">Email: </label>
-    <input type="email" id="contact-email" required>
-  
-    <label class="standard-label">Telephone: </label>
-    <input type="tel">
-  
-    <label class="standard-label">Message: </label>
-    <textarea maxlength="240" required></textarea>
-  
-    <input type="submit" value="Send message">
-  </form>
-  
+      <div class="contact-container">
+        <div class="address-container">
+        <h1>Address</h1><br>
+        Lothar-Streit-Straße 5<br>
+        Zwickau, 08056 <br>
+        Germany<br>
+        <br>
+        E-mail:<a href="mailto:savalan.suleymanli@gmail.com">savalan.suleymanli@gmail.com</a><br>
+        Phone: <a href="tel:015737277177">01573 727 71 77</a>
+        <br>
+      </div>
+        <div class="message-container">
+        <h1>Contact</h1>
+          <form action="mailto:savalan.suleymanli@gmail.com" method="post" enctype="text/plain">
+          <input type="text" id="input-name" placeholder="Name"><br><br>
+          <input type="email" id="input-email" placeholder="Email address" required><br><br>
+          <input type="tel" id="input-tel" placeholder="telephone" required><br><br>
+          <textarea rows="10" cols="25" placeholder="Subject" required></textarea> <br><br>
+          <button class="">Send message</button>
+        </form>
+          <br> <br>
+      </div>
+    </div>
  
 </main>
 <footer class="footer-container">

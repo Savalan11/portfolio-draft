@@ -107,6 +107,27 @@ a:hover, a:focus {
   padding-left: 20px;
 }
 
+.contact-container {
+  margin-left: 0px;
+}
+
+.address-container {
+  background-color: #B9F8D3;
+  width: 50%;
+  border-radius: 5%;
+  padding: 20px 20px;
+  margin: 10px;
+}
+
+.message-container {
+  background-color: #B9F8D3;
+  width: 50%;
+  border-radius: 5%;
+  padding: 20px 20px;
+  margin: 10px;
+}
+
+
 .about {
   text-align: center;
   padding-bottom: 30px;
